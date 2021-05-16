@@ -23,8 +23,8 @@ This project is designed to Automate amazon application on Android Mobile using 
 |`appActivity`| Activity name for the Android activity you want to launch from your package. This often needs to be preceded by a `.` (e.g., `.MainActivity` instead of `MainActivity`). By default this capability is received from the package manifest (action: android.intent.action.MAIN , category: android.intent.category.LAUNCHER) |`MainActivity`, `.Settings`|
 
 **Steps to Clone the repository and run test scripts locally:**
-
-
+1) Navigate to AmazonMobileAutomation repository and , Click on Code and copy the clone Url
+![image](https://user-images.githubusercontent.com/46535033/118383097-6576aa00-b5d1-11eb-8ef7-dd729390e2d3.png)
 
 
 
