@@ -12,6 +12,8 @@ This project is designed to Automate amazon application on Android Mobile using 
 **Capabilities Added:**
 
 
+
+
 **IMPORTANT FILES**
 1) AmazonMobileAutomation/MobileAutomationProject/Apps -- This folder contains Android apps that will be tested locally.
 
