@@ -10,7 +10,8 @@ This project is designed to Automate amazon application on Android Mobile using 
 5. Eclipse is installed 
 
 **Capabilities Added:**
-
+|Capability|Description|Values|
+|----|-----------|-------|
 
 
 
