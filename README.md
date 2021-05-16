@@ -24,8 +24,10 @@ This project is designed to Automate amazon application on Android Mobile using 
 
 **Steps to Clone the repository and run test scripts locally:**
 1) Navigate to AmazonMobileAutomation repository and , Click on Code and copy the clone Url
+
 ![image](https://user-images.githubusercontent.com/46535033/118383097-6576aa00-b5d1-11eb-8ef7-dd729390e2d3.png)
 
+2) Open Terminal Window and Type in
 
 
 **IMPORTANT FILES**
