@@ -22,14 +22,16 @@ This project is designed to Automate amazon application on Android Mobile using 
 |`appPackage`| Java package of the Android app you want to run. By default this capability is received from the package manifest (@package attribute value)|`com.example.android.myApp`, `com.android.settings`|
 |`appActivity`| Activity name for the Android activity you want to launch from your package. This often needs to be preceded by a `.` (e.g., `.MainActivity` instead of `MainActivity`). By default this capability is received from the package manifest (action: android.intent.action.MAIN , category: android.intent.category.LAUNCHER) |`MainActivity`, `.Settings`|
 
+**Steps to Clone the repository and run test scripts locally:**
+
 
 
 
 
 **IMPORTANT FILES**
-1) AmazonMobileAutomation/MobileAutomationProject/Apps -- This folder contains Android apps that will be tested locally.
+1) `AmazonMobileAutomation/MobileAutomationProject/Apps` -- This folder contains Android apps that will be tested locally.
 
-2) AmazonMobileAutomation/MobileAutomationProject/src/test/java/tests/BaseClass.java -- This class has all the necessary setup and teardown functions.
+2) `AmazonMobileAutomation/MobileAutomationProject/src/test/java/tests/BaseClass.java` -- This class has all the necessary setup and teardown functions.
 
 3) AmazonMobileAutomation/MobileAutomationProject/src/test/java/tests/AmazonTest.java -- This class has the script to be run for logging in to the Amazon application and performing the search functionlaity.
 
