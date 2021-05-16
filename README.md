@@ -13,7 +13,10 @@ This project is designed to Automate amazon application on Android Mobile using 
 |Capability|Description|Values|
 |----|-----------|-------|
 |`platformName`|Which mobile OS platform to use|`iOS`, `Android`, or `FirefoxOS`|
+|`platformVersion`|Mobile OS version|e.g., `9`, `10`|
+
 |`automationName`|Which automation engine to use|`Appium` (default), or `UiAutomator2`|
+
 
 
 
