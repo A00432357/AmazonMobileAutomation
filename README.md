@@ -14,8 +14,14 @@ This project is designed to Automate amazon application on Android Mobile using 
 |----|-----------|-------|
 |`platformName`|Which mobile OS platform to use|`iOS`, `Android`, or `FirefoxOS`|
 |`platformVersion`|Mobile OS version|e.g., `9`, `10`|
-
+|`deviceName`|The kind of mobile device or emulator to use| 'Galaxy S9+' or 'OnePlus6'|
+|'udid'| The unquie device id displayed when Android Mobile is connected to System via USB port|'335a4f454f553098'|
+|`newCommandTimeout`|How long (in seconds) Appium will wait for a new command from the client before assuming the client quit and ending the session|e.g. `60`|
 |`automationName`|Which automation engine to use|`Appium` (default), or `UiAutomator2`|
+|`app`|The absolute local path _or_ remote http URL to`.apk` file (Android) or `.apks` file (Android App Bundle), or a `.zip` file containing one of these. Appium will attempt to install this app binary on the appropriate device first. Note that this capability is not required for Android if you specify `appPackage` and `appActivity` capabilities (see below). `UiAutomator2` and `XCUITest` allow to start the session without `app` or `appPackage`. Incompatible with `browserName`. See [here](/docs/en/writing-running-appium/android/android-appbundle.md) about `.apks` file.|`/abs/path/to/my.apk` or `http://myapp.com/app.ipa`|
+|`appPackage`| Java package of the Android app you want to run. By default this capability is received from the package manifest (@package attribute value)|`com.example.android.myApp`, `com.android.settings`|
+|`appActivity`| Activity name for the Android activity you want to launch from your package. This often needs to be preceded by a `.` (e.g., `.MainActivity` instead of `MainActivity`). By default this capability is received from the package manifest (action: android.intent.action.MAIN , category: android.intent.category.LAUNCHER) |`MainActivity`, `.Settings`|
+
 
 
 
