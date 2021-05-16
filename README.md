@@ -8,6 +8,7 @@ This project is designed to Automate amazon application on Android Mobile using 
 3. Android sdk is setup
 4. Mobile device is ready for automation run
 5. Eclipse is installed 
+6. TestNG installed in Eclipse
 
 **Capabilities Added:**
 |Capability|Description|Values|
@@ -27,7 +28,36 @@ This project is designed to Automate amazon application on Android Mobile using 
 
 ![image](https://user-images.githubusercontent.com/46535033/118383097-6576aa00-b5d1-11eb-8ef7-dd729390e2d3.png)
 
-2) Open Terminal Window and Type in
+2) Open Eclipse IDE and Switch to GIT repository view, and Click on "Clone Git Repository" Icon
+
+![image](https://user-images.githubusercontent.com/46535033/118383222-4e848780-b5d2-11eb-8aef-b3deb7f2aa36.png)
+
+3) Paste the Git Clone url into URI: field and click on Finish , `More deatil steps on how to add a git repository to Eclispe can be found here` https://github.com/collab-uniba/socialcde4eclipse/wiki/How-to-import-a-GitHub-project-into-Eclipse
+
+![image](https://user-images.githubusercontent.com/46535033/118383275-c94da280-b5d2-11eb-9d0f-a3d9e01df1c3.png)
+
+4) Once the repository is cloned, Right click on Project and Choose 'Import Projects'
+
+5) Now switch to Package Explorer/Project Explorer
+
+6)On Android mobile device, enable developer options and USB debugging option
+ 
+7) Connect the android mobile device to system using usb cable and enter the following command in terminal
+~adb devices~ , which returns the `uuid` of  connected device
+
+8) Start Appium server on port Number : 4723
+
+![image](https://user-images.githubusercontent.com/46535033/118383473-5c3b0c80-b5d4-11eb-9d36-1b0ad1957c15.png)
+
+9) In Eclipse , open file 'BaseClass.java` and change the following capabilities values according to your android mobile device specifications
+
+  `caps.setCapability(MobileCapabilityType.PLATFORM_NAME,"ANDROID");`
+	`caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");`
+	`caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Galaxy S9+");`
+	`caps.setCapability(MobileCapabilityType.UDID, "335a4f454f553098");`
+
+10) Now navigate to `AmazonTest.java` and Run As 'TestNG Test'
+
 
 
 **IMPORTANT FILES**
