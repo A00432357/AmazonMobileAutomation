@@ -2,7 +2,7 @@
 
 This project is designed to Automate amazon application on Android Mobile using Selenium and TestNG
 
-Prerequisites:
+**Prerequisites:**
 1. Java JDK 
 2. Appium is installed
 3. Android sdk is setup
