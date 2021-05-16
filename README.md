@@ -40,10 +40,10 @@ This project is designed to Automate amazon application on Android Mobile using 
 
 5) Now switch to Package Explorer/Project Explorer
 
-6)On Android mobile device, enable developer options and USB debugging option
+6) On Android mobile device, enable developer options and USB debugging option
  
 7) Connect the android mobile device to system using usb cable and enter the following command in terminal
-~adb devices~ , which returns the `uuid` of  connected device
+`adb devices` , which returns the `uuid` of  connected device
 
 8) Start Appium server on port Number : 4723
 
@@ -71,6 +71,8 @@ This project is designed to Automate amazon application on Android Mobile using 
 4) `AmazonMobileAutomation/MobileAutomationProject/test-output/index.html`-- This file contains the previous run results and is updated after every local run.
 
 5) `AmazonMobileAutomation/MobileAutomationProject/pom.xml`-- This file consists of all the required dependecies for running the Automation framework.
+
+6) `AmazonMobileAutomation/MobileAutomationProject/TestCases.xlsx`- This excel file contains the test sceanrios and test cases for the automated script
 
 
 
