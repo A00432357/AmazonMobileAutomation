@@ -24,16 +24,16 @@
       <![CDATA[Search bar found]]>
     </line>
   </reporter-output>
-  <suite started-at="2021-05-15T12:31:15 ADT" name="Default suite" finished-at="2021-05-15T12:32:36 ADT" duration-ms="81068">
+  <suite started-at="2021-05-15T20:23:00 ADT" name="Default suite" finished-at="2021-05-15T20:23:52 ADT" duration-ms="51725">
     <groups>
     </groups>
-    <test started-at="2021-05-15T12:31:15 ADT" name="Default test" finished-at="2021-05-15T12:32:36 ADT" duration-ms="81068">
+    <test started-at="2021-05-15T20:23:00 ADT" name="Default test" finished-at="2021-05-15T20:23:52 ADT" duration-ms="51725">
       <class name="tests.AmazonTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonTest@47faa49c]" started-at="2021-05-15T12:31:15 ADT" name="setup" finished-at="2021-05-15T12:31:32 ADT" duration-ms="16737" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.AmazonTest@47faa49c]" started-at="2021-05-15T20:23:00 ADT" name="setup" finished-at="2021-05-15T20:23:16 ADT" duration-ms="15785" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="amazonTShirtTest()[pri:0, instance:tests.AmazonTest@47faa49c]" started-at="2021-05-15T12:31:32 ADT" name="amazonTShirtTest" finished-at="2021-05-15T12:32:36 ADT" duration-ms="64298" status="PASS">
+        <test-method signature="amazonTShirtTest()[pri:0, instance:tests.AmazonTest@47faa49c]" started-at="2021-05-15T20:23:16 ADT" name="amazonTShirtTest" finished-at="2021-05-15T20:23:52 ADT" duration-ms="35901" status="PASS">
           <reporter-output>
             <line>
               <![CDATA[Email entered 
@@ -59,7 +59,7 @@
             </line>
           </reporter-output>
         </test-method> <!-- amazonTShirtTest -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AmazonTest@47faa49c]" started-at="2021-05-15T12:32:36 ADT" name="teardown" finished-at="2021-05-15T12:32:36 ADT" duration-ms="49" status="FAIL">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:tests.AmazonTest@47faa49c]" started-at="2021-05-15T20:23:52 ADT" name="teardown" finished-at="2021-05-15T20:23:52 ADT" duration-ms="34" status="FAIL">
           <exception class="org.openqa.selenium.UnsupportedCommandException">
             <message>
               <![CDATA[The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
@@ -67,7 +67,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-SIJIMV5', ip: '192.168.0.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\jakku\git\AmazonMo..., app-Activity: com.amazon.mShop.sso.Signin..., app-Package: com.amazon.mShop.android.sh..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\jakku\git\AmazonMo..., app-Activity: com.amazon.mShop.sso.Signin..., app-Package: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Galaxy S9+, newCommandTimeout: 60, platformName: android, platformVersion: 9, udid: 335a4f454f553098}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G965W, deviceName: 335a4f454f553098, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: 335a4f454f553098, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, udid: 335a4f454f553098, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: bc613acd-46a9-4f80-bc9b-202e7f826086]]>
+Session ID: 1975dbfd-7259-48d6-b887-0d4a5014a0bc]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnsupportedCommandException: The requested resource could not be found, or a request was received using an HTTP method that is not supported by the mapped resource
@@ -75,7 +75,7 @@ Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17
 System info: host: 'DESKTOP-SIJIMV5', ip: '192.168.0.86', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.2'
 Driver info: io.appium.java_client.android.AndroidDriver
 Capabilities {app: C:\Users\jakku\git\AmazonMo..., app-Activity: com.amazon.mShop.sso.Signin..., app-Package: com.amazon.mShop.android.sh..., appPackage: com.amazon.mShop.android.sh..., automationName: UiAutomator2, databaseEnabled: false, desired: {app: C:\Users\jakku\git\AmazonMo..., app-Activity: com.amazon.mShop.sso.Signin..., app-Package: com.amazon.mShop.android.sh..., automationName: UiAutomator2, deviceName: Galaxy S9+, newCommandTimeout: 60, platformName: android, platformVersion: 9, udid: 335a4f454f553098}, deviceApiLevel: 28, deviceManufacturer: samsung, deviceModel: SM-G965W, deviceName: 335a4f454f553098, deviceScreenDensity: 420, deviceScreenSize: 1080x2220, deviceUDID: 335a4f454f553098, javascriptEnabled: true, locationContextEnabled: false, networkConnectionEnabled: true, newCommandTimeout: 60, pixelRatio: 2.625, platform: LINUX, platformName: ANDROID, platformVersion: 9, statBarHeight: 63, takesScreenshot: true, udid: 335a4f454f553098, viewportRect: {height: 2031, left: 0, top: 63, width: 1080}, warnings: {}, webStorageEnabled: false}
-Session ID: bc613acd-46a9-4f80-bc9b-202e7f826086
+Session ID: 1975dbfd-7259-48d6-b887-0d4a5014a0bc
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
